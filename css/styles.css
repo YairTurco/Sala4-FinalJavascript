@@ -1,13 +1,12 @@
 * {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  box-sizing: border-box; }
 
 body {
-  background-image: url(../resources/index_background2.jpg);
-  background-size: cover;
-  height: 100vh;
-  overflow: hidden;
   font-family: 'Varela Round', sans-serif; }
+  body .inicio {
+    width: 100%; }
   body a, body li {
     list-style: none;
     text-decoration: none; }
@@ -15,7 +14,8 @@ body {
     background-color: #e9c915;
     margin: 1rem;
     padding: 1rem;
-    border-radius: 1rem; }
+    border-radius: 1rem;
+    max-width: 50%; }
   body .header {
     background-color: #1d1d1d;
     padding: 0.1rem 0rem; }
@@ -39,14 +39,23 @@ body {
   body .forms {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #302e2e;
     color: whitesmoke;
     padding: 0rem 2rem;
-    margin: 5rem 10rem;
+    margin: 6rem 25rem;
     border-radius: 2rem; }
     body .forms li {
       display: flex;
-      flex-direction: column; }
+      flex-direction: column;
+      align-items: center; }
     body .forms h2 {
       text-align: center;
       padding: 2rem 0rem; }
+  body input, body label {
+    width: 24rem;
+    margin: 0.2rem; }
+  body .userbar {
+    background-color: #302e2e; }
+  body .main {
+    background-color: #302e2e; }
