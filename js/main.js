@@ -62,11 +62,11 @@ function nuevoUsuario() {
     return cargaUsuario;
 }
 
-// nuevoUsuario()
+nuevoUsuario()
 
 //FORMULARIO DE LOGIN
 
-// alert(`Bienvenido a Sala 4!`);
+alert(`Bienvenido a Sala 4!`);
 
 function loginUsuario() {
 
@@ -80,7 +80,7 @@ function loginUsuario() {
     }
 }
 
-// loginUsuario()
+loginUsuario()
 
 /*--------------------------------------------------------------------------*/
 
